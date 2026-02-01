@@ -5,6 +5,20 @@ The suite was implemented as part of a QA automation assignment, with an emphasi
 
 ---
 
+## Test Execution Recording
+
+A full automation run recording is available here:  
+📹 https://drive.google.com/file/d/1hOdrHIs_Cg4_QWwGyxE66V7xm_Vu4h6l/view?usp=sharing
+
+
+## Documentation
+Detailed documentation for each phase of the project:
+* [Test Scope & Manual Design (Part 1 & 2)](https://drive.google.com/file/d/1toVe5MJSRTG1bNTAAz4qbFZIhBjkoAy_/view?usp=sharing)
+* [AI-Assisted QA Report (Part 3)](https://drive.google.com/file/d/1w_1GcjzA4RR-4C0M0rtXFJV9aG8QZPdl/view?usp=drive_link)
+* [Project Reflection & Summary (Part 5)](https://drive.google.com/file/d/1eJengpoyqwjQ5yma6YspGVGtwrz5sE4H/view?usp=drive_link)
+
+---
+
 ## Tech Stack
 
 - **Framework:** Playwright
@@ -57,9 +71,13 @@ npx playwright install chromium msedge
 
 ## How to Run the Tests
 
-To run the entire suite with the pre-configured settings (Headed mode, stability timeouts, and reporting), simply execute: npx playwright test
+To run the entire suite with the pre-configured settings (Headed mode, stability timeouts, and reporting), simply execute:
 
-Note: The tests are configured to run in Headed mode by default to allow for visual validation of the registration flow.
+```bash
+npx playwright test
+```
+
+**Note:** The tests are configured to run in Headed mode by default to allow for visual validation of the registration flow.
 
 ### View Test Results
 
@@ -89,7 +107,7 @@ npx playwright show-report
 
 ---
 
-##  What Was Automated
+## What Was Automated
 
 The automation focuses on the core user registration flow and its most critical validation points.
 
@@ -180,8 +198,3 @@ The automation focuses on the core user registration flow and its most critical 
 
 
 ---
-
-## Test Execution Recording
-
-A full automation run recording is available here:  
-📹 https://drive.google.com/file/d/1hOdrHIs_Cg4_QWwGyxE66V7xm_Vu4h6l/view?usp=sharing
