@@ -10,7 +10,7 @@ export default defineConfig({
   forbidOnly: !!process.env.CI,
   retries: 1,
 
-  reporter: 'html',
+  reporter: [['html', { open: 'always' }]],
 
   use: {
     headless: false,
